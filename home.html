@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="home.css" />
+    <meta
+      name="viewport"
+      slider-content="width=device-width, initial-scale=1.0"
+    />
+    <title>Church on the hill</title>
+    <!-- Link to google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="gallery.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="socials.css" />
+  </head>
+  <body>
+    <!-- Header -->
+
+    <header>
+      <div class="logo">
+        <img class="header-logo" src="./assets/nav-logo.png" alt="" />
+      </div>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#aboutSection">Aboutus</a></li>
+        <li><a href="#servicesSection">Our Services</a></li>
+        <li><a href="#archiveSection">Archive</a></li>
+        <li><a href="#socialSection">Contact</a></li>
+      </ul>
+    </header>
+
+    <!-- slider -->
+
+    <div class="slider" style="border-bottom: 1px solid lightgray">
+      <!-- list Items -->
+      <div class="list">
+        <div class="item active">
+          <img src="./assets/img3.jpg" />
+          <div class="slider-content">
+            <p>Weclome to</p>
+            <h2>THE CHURCH ON THE HILL</h2>
+            <p>Come make your dreams come true with us!</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./assets/event1.jpg" />
+          <div class="slider-content">
+            <p>What We Offer</p>
+            <h2>EVENT CENTER</h2>
+            <p>
+              Elevate your events at The Church on The Hill, where memories are
+              made amidst breathtaking views and impeccable service.
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./assets/cafe1.jpg" />
+          <div class="slider-content">
+            <p>What We Offer</p>
+            <h2>CAFE</h2>
+            <p>
+              Savor the flavors at our Cafe and Wine Bar, where every moment is
+              a celebration of exquisite tastes and cherished conversations.
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./assets/wine1.jpg" />
+          <div class="slider-content">
+            <p>What We Offer</p>
+            <h2>WINE BAR</h2>
+            <p>
+              Unwind and rejoice at our Wine Bar, where each sip is a journey
+              into relaxation and refined elegance.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- button arrows -->
+      <div class="arrows">
+        <button id="prev"><</button>
+        <button id="next">></button>
+      </div>
+      <!-- thumbnail -->
+      <div class="thumbnail">
+        <div class="item active">
+          <img src="./assets/img3.png" />
+          <div class="slider-content">The Church on the Hill</div>
+        </div>
+        <div class="item">
+          <img src="./assets/event1.jpg" />
+          <div class="slider-content">Event Center</div>
+        </div>
+        <div class="item">
+          <img src="./assets/cafe1.jpg" />
+          <div class="slider-content">Cafe</div>
+        </div>
+        <div class="item">
+          <img src="./assets/wine1.jpg" />
+          <div class="slider-content">Wine Bar</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section: About  -->
+    <section
+      id="aboutSection"
+      class="about"
+      style="
+        border-bottom: 1px solid lightgray;
+
+        margin-bottom: 40px;
+      "
+    >
+      <div class="about-content">
+        <img src="./assets/church_image.png" alt="" />
+        <div class="about-text">
+          <h5>About Us</h5>
+
+          <h1>The Church on the Hill</h1>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit
+            harum libero similique laudantium obcaecati maxime dolorum, minima
+            accusantium facilis assumenda est minus. Ab excepturi nisi cum eos
+            delectus quibusdam?
+          </p>
+          <div class="last-text">
+            <div class="text1">
+              <h3>2k</h3>
+              <h4>Happy Customers</h4>
+            </div>
+            <div class="text2">
+              <h3>400+</h3>
+              <h4>Serving Capacity</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Services Section -->
+    <div
+      id="servicesSection"
+      class="tabs-container"
+      style="
+        border-bottom: 1px solid lightgray;
+        border-radius: 0px;
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+      "
+    >
+      <h1 class="services-header">Our Services</h1>
+      <input type="radio" name="tab-slider" id="eventcenter" checked />
+      <input type="radio" name="tab-slider" id="cafe" />
+      <input type="radio" name="tab-slider" id="winebar" />
+      <nav>
+        <label for="eventcenter" class="eventcenter">Event Center</label>
+        <label for="cafe" class="cafe">Cafe</label>
+        <label for="winebar" class="winebar">Wine Bar</label>
+        <div class="tab-slider"></div>
+      </nav>
+      <section class="tabs-section">
+        <div class="tab-content tab-content-1">
+          <div class="service-text">
+            <h2>Event Center</h2>
+            <p>
+              The Church on The Hill offers a versatile event center suitable
+              for various occasions, from weddings and receptions to corporate
+              functions and community gatherings. With its charming ambiance and
+              flexible spaces, our event center provides the perfect backdrop
+              for creating memorable experiences.
+            </p>
+            <div class="service-options">
+              <button>Enquiry</button>
+              <button>Booking</button>
+            </div>
+          </div>
+
+          <div class="wrapper1">
+            <div class="gallery-container1">
+              <input type="radio" name="slide" id="c1" checked class="input1" />
+              <label for="c1" class="card1">
+                <div class="row1">
+                  <div class="icon1">1</div>
+                  <div class="description1">
+                    <h4>Winter</h4>
+                    <p>Winter has so much to offer - creative activities</p>
+                  </div>
+                </div>
+              </label>
+              <input class="input1" type="radio" name="slide" id="c2" />
+              <label for="c2" class="card1">
+                <div class="row1">
+                  <div class="icon1">2</div>
+                  <div class="description1">
+                    <h4>Digital Technology</h4>
+                    <p>Gets better every day - stay tuned</p>
+                  </div>
+                </div>
+              </label>
+              <input class="input1" type="radio" name="slide" id="c3" />
+              <label for="c3" class="card1">
+                <div class="row1">
+                  <div class="icon1">3</div>
+                  <div class="description1">
+                    <h4>Globalization</h4>
+                    <p>Help people all over the world</p>
+                  </div>
+                </div>
+              </label>
+              <input class="input1" type="radio" name="slide" id="c4" />
+              <label for="c4" class="card1">
+                <div class="row1">
+                  <div class="icon1">4</div>
+                  <div class="description1">
+                    <h4>New technologies</h4>
+                    <p>Space engineering becomes more and more advanced</p>
+                  </div>
+                </div>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content tab-content-2">
+          <div class="service-text">
+            <h2>Cafe</h2>
+            <p>
+              Our cozy cafe is a welcoming haven where you can indulge in
+              freshly brewed coffee, delectable pastries, and light bites.
+              Whether you're looking for a quiet spot to catch up with friends
+              or a place to enjoy a leisurely afternoon, our cafe offers a
+              relaxed atmosphere and friendly service.
+            </p>
+            <div class="service-options">
+              <button>Enquiry</button>
+              <button>Booking</button>
+            </div>
+          </div>
+          <div class="wrapper2">
+            <div class="gallery-container2">
+              <input type="radio" name="slide2" id="c1-2" class="input2" />
+              <label for="c1-2" class="card2">
+                <div class="row2">
+                  <div class="icon2">1</div>
+                  <div class="description2">
+                    <h4>Winter</h4>
+                    <p>Winter has so much to offer - creative activities</p>
+                  </div>
+                </div>
+              </label>
+              <input
+                class="input2"
+                type="radio"
+                checked
+                name="slide2"
+                id="c2-2"
+              />
+              <label for="c2-2" class="card2">
+                <div class="row2">
+                  <div class="icon2">2</div>
+                  <div class="description2">
+                    <h4>Digital Technology</h4>
+                    <p>Gets better every day - stay tuned</p>
+                  </div>
+                </div>
+              </label>
+              <input class="input2" type="radio" name="slide2" id="c3-2" />
+              <label for="c3-2" class="card2">
+                <div class="row2">
+                  <div class="icon2">3</div>
+                  <div class="description2">
+                    <h4>Globalization</h4>
+                    <p>Help people all over the world</p>
+                  </div>
+                </div>
+              </label>
+              <input class="input2" type="radio" name="slide2" id="c4-2" />
+              <label for="c4-2" class="card2">
+                <div class="row2">
+                  <div class="icon2">4</div>
+                  <div class="description2">
+                    <h4>New technologies</h4>
+                    <p>Space engineering becomes more and more advanced</p>
+                  </div>
+                </div>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content tab-content-3">
+          <div class="service-text">
+            <h2>Wine Bar</h2>
+            <p>
+              Unwind and savor the moment at our sophisticated wine bar.
+              Featuring an extensive selection of wines from around the world,
+              as well as craft cocktails and artisanal cheeses, our wine bar
+              invites you to elevate your evenings with good company and great
+              drinks in a stylish setting.
+            </p>
+            <div class="service-options">
+              <button>Enquiry</button>
+              <button>Booking</button>
+            </div>
+          </div>
+          <div class="wrapper3">
+            <div class="gallery-container3">
+              <input type="radio" name="slide3" id="c1-3" class="input3" />
+              <label for="c1-3" class="card3">
+                <div class="row3">
+                  <div class="icon3">1</div>
+                  <div class="description3">
+                    <h4>Winter</h4>
+                    <p>Winter has so much to offer - creative activities</p>
+                  </div>
+                </div>
+              </label>
+              <input class="input3" type="radio" name="slide3" id="c2-3" />
+              <label for="c2-3" class="card3">
+                <div class="row3">
+                  <div class="icon3">2</div>
+                  <div class="description3">
+                    <h4>Digital Technology</h4>
+                    <p>Gets better every day - stay tuned</p>
+                  </div>
+                </div>
+              </label>
+              <input
+                class="input3"
+                type="radio"
+                checked
+                name="slide3"
+                id="c3-3"
+              />
+              <label for="c3-3" class="card3">
+                <div class="row3">
+                  <div class="icon3">3</div>
+                  <div class="description3">
+                    <h4>Globalization</h4>
+                    <p>Help people all over the world</p>
+                  </div>
+                </div>
+              </label>
+              <input class="input3" type="radio" name="slide3" id="c4-3" />
+              <label for="c4-3" class="card3">
+                <div class="row3">
+                  <div class="icon3">4</div>
+                  <div class="description3">
+                    <h4>New technologies</h4>
+                    <p>Space engineering becomes more and more advanced</p>
+                  </div>
+                </div>
+              </label>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Gallery -->
+    <div
+      style="
+        width: 100%;
+        margin-bottom: 40px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid lightgray;
+      "
+    >
+      <div class="highlights" id="archiveSection">
+        <!-- <h1>Masonry Gallery</h1> -->
+        <h1 class="services-header" style="width: fit-content">Archive</h1>
+        <div class="gallery" id="gallery">
+          <div class="gallery-item">
+            <div class="content">
+              <img src="./archive/arc6.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <div class="content">
+              <img src="./archive/arc1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img src="./assets/wine4.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <div class="content">
+              <img src="./archive/arc2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img src="./archive/arc3.jpg" alt="" />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img src="./archive/arc5.jpg" alt="" />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img src="./archive/arc7.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <div class="content">
+              <img src="./archive/arc9.jpg" alt="" />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img src="./assets/event2.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <div class="content">
+              <img src="./assets/cafe2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img src="./archive/arc10.jpg" alt="" />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img src="./assets/wine2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img src="./assets/event4.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Socials -->
+    <div class="social-slider" id="socialSection">
+      <div class="slide-track">
+        <div class="slide">
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png"
+            height="100"
+            width="250"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
+            height="100"
+            width="250"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png"
+            height="100"
+            width="250"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png"
+            height="100"
+            width="250"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png"
+            height="100"
+            width="250"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png"
+            height="100"
+            width="250"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png"
+            height="100"
+            width="250"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png"
+            height="100"
+            width="250"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
+            height="100"
+            width="250"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png"
+            height="100"
+            width="250"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png"
+            height="100"
+            width="250"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png"
+            height="100"
+            width="250"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png"
+            height="100"
+            width="250"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png"
+            height="100"
+            width="250"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer">
+        <!-- <div class="row">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </div> -->
+
+        <div class="row">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Archive & Highlights</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="row">
+          STREETS17 Copyright © 2021 Streets - All rights reserved || Designed
+          By: Shahab
+        </div>
+      </div>
+    </footer>
+
+    <script src="home.js"></script>
+    <script src="gallery.js"></script>
+  </body>
+</html>
